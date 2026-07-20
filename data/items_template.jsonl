@@ -1,0 +1,3 @@
+{"id": "tmpl_001", "category": "factual_qa", "register": "codeswitch_fr_darija", "prompt": "", "answer_type": "open", "choices": null, "gold_answer": "", "source": "original", "notes": ""}
+{"id": "tmpl_002", "category": "reasoning", "register": "darija_arabizi", "prompt": "", "answer_type": "open", "choices": null, "gold_answer": "", "source": "original", "notes": ""}
+{"id": "tmpl_003", "category": "instruction_following", "register": "codeswitch_fr_darija", "prompt": "", "answer_type": "open", "choices": null, "gold_answer": "", "source": "original", "notes": ""}
