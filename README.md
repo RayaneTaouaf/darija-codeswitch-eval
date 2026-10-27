@@ -2,7 +2,7 @@
 
 **Paper:** "Right Answer, Wrong Register: Evaluating Frontier LLMs on Code-Switched Moroccan Darija" (arXiv, 2026) [LINK ONCE LIVE]
 
-**Status:** MVP complete — 60 items, native-reviewed, run against two frontier
+**Status:** MVP complete. 60 items, native-reviewed, run against two frontier
 models (Gemini 3.1 Flash-Lite, Claude Sonnet 5), scored by an LLM judge with
 manual spot-checks. See Results below.
 
@@ -10,12 +10,12 @@ manual spot-checks. See Results below.
 
 Existing Darija benchmarks (DarijaMMLU, DarijaHellaSwag, DarijaBench, from the
 Atlas-Chat project; TerjamaBench from AtlasIA) evaluate models on clean,
-single-register input — a full question in Darija, or MSA, or Arabizi, but
+single-register input: a full question in Darija, or MSA, or Arabizi, but
 not mixed. Real Moroccan text messaging and speech constantly code-switches
 between French, Darija (Arabic script), and Darija (Arabizi/Latin script),
 often within a single sentence. A 2025 survey of 40+ Arabic LLM benchmarks
 flagged "cultural misalignment in translated datasets" and "insufficient
-multi-turn dialogue assessment" as open gaps — this project targets the
+multi-turn dialogue assessment" as open gaps. This project targets the
 code-switching piece of that gap directly.
 
 This is **not** a from-scratch benchmark. It extends existing work by testing
@@ -29,7 +29,7 @@ cover.
    Darija Arabizi, Darija Arabic script, with control items in each pure
    register alongside the codeswitched ones).
 2. Every item was drafted as an LLM first pass, then corrected by a native
-   Darija speaker before being accepted into the set — the corrections
+   Darija speaker before being accepted into the set. The corrections
    themselves are logged in `data/style_notes.md` as a running grammar guide.
 3. Ran the full set against two models from different families: Gemini 3.1
    Flash-Lite and Claude Sonnet 5.
