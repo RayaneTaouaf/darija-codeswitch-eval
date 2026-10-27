@@ -1,5 +1,7 @@
 # Darija Code-Switch Eval
 
+**Paper:** "Right Answer, Wrong Register: Evaluating Frontier LLMs on Code-Switched Moroccan Darija" (arXiv, 2026) [LINK ONCE LIVE]
+
 **Status:** MVP complete — 60 items, native-reviewed, run against two frontier
 models (Gemini 3.1 Flash-Lite, Claude Sonnet 5), scored by an LLM judge with
 manual spot-checks. See Results below.
@@ -134,3 +136,16 @@ own machine, not in a sandboxed environment.
 - Arabizi vs LLMs, 2025
 - Nile-Chat, dual-script Egyptian Arabic models
 - "Evaluating Arabic Large Language Models" survey, 2025
+
+## Citation
+
+If you use this benchmark, please cite:
+
+@misc{taouaf2026darija,
+  title        = {Right Answer, Wrong Register: Evaluating Frontier LLMs on Code-Switched Moroccan Darija},
+  author       = {Taouaf, Rayane},
+  year         = {2026},
+  eprint       = {ARXIV_ID_HERE},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL}
+}
